@@ -17,8 +17,8 @@ puts offer_rose('paul')
 # Assume the following hash...
 
 town = {
-  residents: ["Maurice", "Belle", "Gaston"],
-  castle: {
+    residents: ["Maurice", "Belle", "Gaston"],
+    castle: {
     num_rooms: 47,
     residents: ["Robby Benson"],
     guests: []
@@ -49,7 +49,9 @@ friends = ["Chip Potts", "Cogsworth", "Lumière", "Mrs. Potts"]
 # "Belle is friends with Mrs. Potts"
 # Type your solution directly below this line:
 
-
+friends.each { |name|
+  puts "Belle is friends with #{name}"
+}
 
 
 # Question 4
